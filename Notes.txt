@@ -1,0 +1,7 @@
+Topic: Resolve conflict (When Conflict happen with Rebase)
+
+1: Resolve the conflict (Accept incoming, Accept Current, Accept Both, Accept Ignore Both)
+2: Add the change files (Git add <file-names>)
+3: Make commit message (git commit -m "<message-description>")
+4: After message continue the rebase (git rebase --continue)
+
