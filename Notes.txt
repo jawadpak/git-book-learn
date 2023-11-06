@@ -5,3 +5,20 @@ Topic: Resolve conflict (When Conflict happen with Rebase)
 3: Make commit message (git commit -m "<message-description>")
 4: After message continue the rebase (git rebase --continue)
 
+Topic: You can delete a branch using the git branch command
+
+* You can delete a branch using the git branch command, along with the -d (or --delete) flag.
+  If you attempt to delete a branch that has not been merged yet, Git will error out. If you are absolutely sure you want to delete an unmerged branch, 
+  you’ll have to use the -D (uppercase “D”) flag with the git branch command.    
+  A branch is always based on a commit. If you know the ID of the commit you want to use as the basis for a branch, 
+  you can supply it to the git branch command: git branch branch-name commit-ID
+
+Topic: check git log command
+
+1: Check git log with N number of commit  (git log --oneline -n N)
+2: git log --preety=online
+
+we are comparing the index with the working directory git diff --cached
+
+The output of the git diff command shows me all the things I have changed. 
+Why not just copy and paste them back in my editor? Wouldn’t that have the same effect?
