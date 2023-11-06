@@ -4,7 +4,9 @@ Topic: Resolve conflict (When Conflict happen with Rebase)
 2: Add the change files (Git add <file-names>)
 3: Make commit message (git commit -m "<message-description>")
 4: After message continue the rebase (git rebase --continue)
+5: Incase of merge use merge (git merge)
 
+<<<<<<< HEAD
 Topic: You can delete a branch using the git branch command
 
 * You can delete a branch using the git branch command, along with the -d (or --delete) flag.
@@ -33,3 +35,8 @@ Case-insensitive search git grep -i cheese
 The git blame command is pretty rad. It gives lots of information about a certain file, and you can easily see who changed any line of the file, including details about the commit that affected that line.
 git log -p --oneline --S <word> --word-diff
 git log --grep "<word>"
+=======
+Topic Create a new branch (from log --> coommit-id) if you delete accidently  
+    
+* git branch <branch-name> <base-commit-id>. This will allow you to undo an accidental delete or create a new branch.
+>>>>>>> 6310933 (add the topic create branch from commit)
