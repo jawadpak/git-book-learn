@@ -24,3 +24,12 @@ The output of the git diff command shows me all the things I have changed.
 Why not just copy and paste them back in my editor? Wouldn’t that have the same effect?
 
 git rm command takes the paths of one or more tracked files and removes them from the working directory and the index. 
+git mv <file1> <file2> Rename the tracked files
+
+git rebase --interactive HEAD~3 use for squash
+git reset --mixed (--soft, --hard)
+git revert <commit-id> (remove/undo changes of that specfic commit)
+Case-insensitive search git grep -i cheese
+The git blame command is pretty rad. It gives lots of information about a certain file, and you can easily see who changed any line of the file, including details about the commit that affected that line.
+git log -p --oneline --S <word> --word-diff
+git log --grep "<word>"
