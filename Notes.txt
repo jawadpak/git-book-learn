@@ -22,3 +22,5 @@ we are comparing the index with the working directory git diff --cached
 
 The output of the git diff command shows me all the things I have changed. 
 Why not just copy and paste them back in my editor? Wouldn’t that have the same effect?
+
+git rm command takes the paths of one or more tracked files and removes them from the working directory and the index. 
